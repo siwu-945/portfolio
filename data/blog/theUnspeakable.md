@@ -5,7 +5,7 @@ lastmod: '2024/1/27'
 tags: [Philosophy]
 draft: false
 summary: 'Naming has failed in describing the essence of an object because words are not enough, but only through a series chain of referencing can point to the true object'
-images: ['/static/images/articles/mountains.jpg']
+images: ['/static/images/articles/mountain.jpg']
 layout: PostLayout
 ---
 
@@ -51,7 +51,7 @@ The students of those philosophical leaders are very much confused because when 
 
 If the presupposition is not validify and the naming of an important property isn’t enough to direct the audience to think about the correct object, what will? In the later part of his second lecture, Kripke says someone who is hypothetical can have a referent as well. But how is that the case when the people know that object is “false” and nonexistent? Kripke gives the example of Jonah, the famous biblical character who got swollen by the big fish, by saying “these conditions (swallowed by the fish) may be true of no one whatsoever and yet the name ‘Jonah’ really has a referent” (Kripke, 59). In other words, the biblical character Jonah can have a referent even if he doesn’t exist, because he exists in a real community of people who share the same referent. Therefore, when presupposition and naming fail to direct people to the true referent, a community can direct people to understand the true expression of an expression.
 
-## Community
+## Conclusion
 
 A new idea is like a newborn baby, and the baby truly exists in the community when the baby has been talked about by the parents, the friends, and eventually “spread from link to link as if by a chain”(Kripke, 61). When naming and properties are not enough to direct people to understand the true nature of an object, the community of linked chains can direct people to understand and share the common referent without worrying about the validity of presupposition.
 
@@ -59,4 +59,4 @@ In essence, that’s how language works. Language exists in communities where th
 
 ---
 
-Thanks for reading about the Unspeakable, you can reach out to me via email if you have any questions or want to share your thoughts.
+Thanks for reading about the Unspeakable, you can reach out to me via email if you have any questions or want to share your thoughts. This is for my personal blog only, please do not copy the content without permission.
