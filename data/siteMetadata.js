@@ -6,11 +6,10 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   //TODO: change to site url
-  siteUrl: 'https://maqib.cn',
+  siteUrl: '#',
   siteRepo: 'https://github.com/siwu-945/portfolio',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/static/images/Logo.png',
+  image: '/static/images/cat.jpg',
   email: 'siwu.li@drexel.edu',
   github: 'https://github.com/siwu-945',
   locale: 'en-US',

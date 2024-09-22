@@ -6,7 +6,6 @@ import readingTime from 'reading-time'
 import getAllFilesRecursively from './utils/files'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
-import { ProjectFrontMatter } from 'types/ProjectFrontMatter'
 import { Toc } from 'types/Toc'
 // Remark packages
 import remarkGfm from 'remark-gfm'
@@ -143,32 +142,32 @@ export async function getAllFilesFrontMatter(folder: 'blog') {
 export async function getAllProjectsFrontMatter() {
   console.log('gaaaaaaaaaaaaaagaaaaaaaaaaaaaagaaaaaaaaaaaaaagaaaaaaaaaaaaaa')
 
-  const prefixPaths = path.join(root, 'data', 'projects')
+  // const prefixPaths = path.join(root, 'data', 'projects')
 
-  console.log(prefixPaths)
+  // console.log(prefixPaths)
 
-  const files = getAllFilesRecursively(prefixPaths)
+  // const files = getAllFilesRecursively(prefixPaths)
 
-  const allFrontMatter: ProjectFrontMatter[] = []
+  // const allFrontMatter: ProjectFrontMatter[] = []
 
-  files.forEach((file: string) => {
-    // Replace is needed to work on Windows
-    const fileName = file.slice(prefixPaths.length + 1).replace(/\\/g, '/')
-    console.log(fileName)
-    if (path.extname(fileName) !== '.md' && path.extname(fileName) !== '.mdx') {
-      return
-    }
-    const source = fs.readFileSync(file, 'utf8')
-    console.log(source)
-    const matterFile = matter(source)
-    const frontmatter = matterFile.data as ProjectFrontMatter
-    if ('draft' in frontmatter && frontmatter.draft !== true) {
-      allFrontMatter.push({
-        ...frontmatter,
-        title: formatSlug(fileName),
-      })
-    }
-  })
+  // files.forEach((file: string) => {
+  //   // Replace is needed to work on Windows
+  //   const fileName = file.slice(prefixPaths.length + 1).replace(/\\/g, '/')
+  //   console.log(fileName)
+  //   if (path.extname(fileName) !== '.md' && path.extname(fileName) !== '.mdx') {
+  //     return
+  //   }
+  //   const source = fs.readFileSync(file, 'utf8')
+  //   console.log(source)
+  //   const matterFile = matter(source)
+  //   const frontmatter = matterFile.data as ProjectFrontMatter
+  //   if ('draft' in frontmatter && frontmatter.draft !== true) {
+  //     allFrontMatter.push({
+  //       ...frontmatter,
+  //       title: formatSlug(fileName),
+  //     })
+  //   }
+  // })
 
-  return allFrontMatter
+  return []
 }
