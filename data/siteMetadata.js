@@ -1,25 +1,21 @@
 const siteMetadata = {
-  title: '狂奔滴小马 | 前端工程师成长部落阁',
-  author: '狂奔滴小马',
-  headerTitle: '小马部落阁',
-  description: '分享 JavaScript 以及热门框架，记录前端工程师学习成长历程。',
+  title: 'Siwu Li',
+  author: 'Siwu',
+  headerTitle: "Siwu's Portfolio",
+  description: 'Projects, Experiences, and Thoughts',
   language: 'en-us',
   theme: 'system', // system, dark or light
+  //TODO: change to site url
   siteUrl: 'https://maqib.cn',
-  siteRepo: 'https://github.com/maqi1520/nextjs-tailwind-blog',
+  siteRepo: 'https://github.com/siwu-945/portfolio',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'maqi1520@163.com',
-  github: 'https://github.com/maqi1520',
-  juejin: 'https://juejin.cn/user/2189882895384093',
-  zhihu: 'https://www.zhihu.com/people/xiao-ma-15-3',
-  locale: 'zh-CN',
-  welcome: '自在，轻盈，我本不想停留',
+  email: 'siwu.li@drexel.edu',
+  github: 'https://github.com/siwu-945',
+  locale: 'en-US',
+  welcome: 'Constant progress.',
   analytics: {
-    //如果要使用分析提供程序，则必须将其添加到。
-    //`next.config.js`文件中的内容安全策略。
-    // 支持 plausible, simpleAnalytics, umami or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000

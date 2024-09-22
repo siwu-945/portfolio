@@ -71,7 +71,7 @@ export default function PostLayout(props: Props) {
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
             <div className="">
-              <dl className="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
+              <dl className="pb-10 pt-6 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
                 <dt className="sr-only">Authors</dt>
                 <dd>
                   <ul className="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
@@ -96,7 +96,7 @@ export default function PostLayout(props: Props) {
                 </dd>
               </dl>
               <h2 className="pt-6 text-xs font-bold uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                目录
+                Outline
               </h2>
               <TOCInline asDisclosure={false} toc={props.toc} />
             </div>
@@ -106,21 +106,8 @@ export default function PostLayout(props: Props) {
                   <img alt={title} className="w-full rounded object-cover shadow-lg" src={src} />
                 </div>
               ) : null}
-              <div className="prose max-w-none break-words pt-10 pb-8 dark:prose-dark">
+              <div className="prose max-w-none break-words pb-8 pt-10 dark:prose-dark">
                 {children}
-              </div>
-              <div className="border-t border-gray-200 pt-6 pb-6 text-sm text-gray-700 dark:border-gray-700 dark:text-gray-300">
-                <div className="mb-3">
-                  <Image
-                    alt="runjs-cool"
-                    width={384}
-                    height={140}
-                    src={`/static/images/runjs-cool.webp`}
-                  />
-                </div>
-
-                <span>关注微信公众号，获取最新原创文章（首发）</span>
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
@@ -129,7 +116,7 @@ export default function PostLayout(props: Props) {
                 {tags && (
                   <div className="py-4 xl:py-8">
                     <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                      标签
+                      Tags
                     </h2>
                     <div className="mt-3 flex flex-wrap">
                       {tags.map((tag) => (
@@ -143,7 +130,7 @@ export default function PostLayout(props: Props) {
                     {prev && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          上一篇 文章
+                          Last Article
                         </h2>
                         <div className="mt-3 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
@@ -153,7 +140,7 @@ export default function PostLayout(props: Props) {
                     {next && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          下一篇 文章
+                          Next Article
                         </h2>
                         <div className="mt-3 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/blog/${next.slug}`}>{next.title}</Link>
@@ -168,7 +155,7 @@ export default function PostLayout(props: Props) {
                   href="/blog"
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 >
-                  &larr; 返回文章列表
+                  &larr; Return to article List
                 </Link>
               </div>
             </footer>

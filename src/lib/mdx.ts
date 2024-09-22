@@ -6,6 +6,7 @@ import readingTime from 'reading-time'
 import getAllFilesRecursively from './utils/files'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
+import { ProjectFrontMatter } from 'types/ProjectFrontMatter'
 import { Toc } from 'types/Toc'
 // Remark packages
 import remarkGfm from 'remark-gfm'
@@ -22,6 +23,7 @@ import rehypeKatex from 'rehype-katex'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
 import rehypePresetMinify from 'rehype-preset-minify'
+import { Console } from 'console'
 
 const root = process.cwd()
 
@@ -136,4 +138,37 @@ export async function getAllFilesFrontMatter(folder: 'blog') {
   })
 
   return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date))
+}
+
+export async function getAllProjectsFrontMatter() {
+  console.log('gaaaaaaaaaaaaaagaaaaaaaaaaaaaagaaaaaaaaaaaaaagaaaaaaaaaaaaaa')
+
+  const prefixPaths = path.join(root, 'data', 'projects')
+
+  console.log(prefixPaths)
+
+  const files = getAllFilesRecursively(prefixPaths)
+
+  const allFrontMatter: ProjectFrontMatter[] = []
+
+  files.forEach((file: string) => {
+    // Replace is needed to work on Windows
+    const fileName = file.slice(prefixPaths.length + 1).replace(/\\/g, '/')
+    console.log(fileName)
+    if (path.extname(fileName) !== '.md' && path.extname(fileName) !== '.mdx') {
+      return
+    }
+    const source = fs.readFileSync(file, 'utf8')
+    console.log(source)
+    const matterFile = matter(source)
+    const frontmatter = matterFile.data as ProjectFrontMatter
+    if ('draft' in frontmatter && frontmatter.draft !== true) {
+      allFrontMatter.push({
+        ...frontmatter,
+        title: formatSlug(fileName),
+      })
+    }
+  })
+
+  return allFrontMatter
 }
