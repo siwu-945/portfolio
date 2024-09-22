@@ -8,8 +8,8 @@ email: siwu.li@drexel.edu
 github: https://github.com/siwu-945
 ---
 
-- Name：Siwu
-- How to describe me：Responsible, Communicative, Curious
+- Name：Siwu Li
+- Responsible, Communicative, Curious
 - Versatile full stack developer with expertise in performance optimization and concurrent programming, with strong experience in designing and implementing cloud infrastructure solutions.
 - Where am I located：U.S
 - Skill：

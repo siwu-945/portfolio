@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Siwu Li',
   author: 'Siwu',
-  headerTitle: "Siwu's Portfolio",
+  headerTitle: "Siwu's Space",
   description: 'Projects, Experiences, and Thoughts',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -13,7 +13,7 @@ const siteMetadata = {
   email: 'siwu.li@drexel.edu',
   github: 'https://github.com/siwu-945',
   locale: 'en-US',
-  welcome: 'Constant progress.',
+  welcome: "Solving tomorrow's problems today",
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false

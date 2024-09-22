@@ -22,7 +22,7 @@ export default function Experience() {
       company: 'Susquehanna International Group (SIG)',
       url: 'https://www.sig.com/',
       description:
-        'Susquehanna has become one of the largest and most successful proprietary trading firms in the world. With deep integration of Trading, Technology, and Quantitative Research',
+        'Susquehanna is one of the largest and most successful proprietary trading firms in the world. With deep integration of Trading, Technology, and Quantitative Research',
       role: 'Software Developer',
     },
     {
@@ -40,6 +40,14 @@ export default function Experience() {
       description:
         'I held weekly office hours, graded assignments, and assist professors in weekly lab sections.',
       role: 'Teaching Assistant',
+    },
+    {
+      id: 4,
+      company: 'CloudView ',
+      url: 'https://www.cloudview-inc.com/',
+      description:
+        'CloudView is a technology company established by Tencent, Transsion, and Welight, focusing on global Internet development. The product Phoenix Browser is currently the fastest growing Android browser in the world.',
+      role: 'Web Developer',
     },
   ]
 
