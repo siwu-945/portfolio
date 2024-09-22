@@ -5,7 +5,7 @@ occupation: Student/Software Engineer
 company1: ex Software Engineer @
 company2: ex Cloud Developer @
 email: siwu.li@drexel.edu
-github: https://github.com/maqi1520
+github: https://github.com/siwu-945
 ---
 
 - Name：Siwu

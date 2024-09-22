@@ -140,6 +140,7 @@ export const BlogSEO = ({
       '@id': url,
     },
     headline: title,
+    writtenby: 'Written by Siwu Li',
     image: featuredImages,
     datePublished: publishedAt,
     dateModified: modifiedAt,

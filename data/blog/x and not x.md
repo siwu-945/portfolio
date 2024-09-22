@@ -1,5 +1,6 @@
 ---
 title: 'x and not x = False.'
+author: Siwu Li
 date: '2024/2/24'
 lastmod: '2024/2/24'
 tags: [Russell, Logic, Philosophy]
