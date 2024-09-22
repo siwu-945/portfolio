@@ -6,7 +6,7 @@ https://github.com/timlrx/tailwind-nextjs-starter-blog
 
 ## What is this for?
 
-- A blog site for me to write and share my thoughts
+- Just a personal space for me to write and share my thoughts
 
 ## Tech Stack
 
