@@ -18,7 +18,7 @@ export default function Hero({ welcome }: Props): ReactElement {
         <div ref={ref} className="px-4 text-3xl md:text-4xl">
           {welcome.split('').map((latter, index) => (
             <span
-              style={{ transitionDelay: 0.2 * (index + 1) + 's' }}
+              style={{ transitionDelay: 0.1 * (index + 1) + 's' }}
               className="opacity-0 transition-opacity"
               key={index}
             >
