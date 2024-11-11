@@ -1,9 +1,21 @@
 const projectsData = [
   {
+    title: 'Non-Stop Karaoke (Developing)',
+    description: `Let everyone be the DJ! This web app lets party-goers/friend groups suggest songs in real-time without touching the host's device. Simply join the room, type in your song request, watch the playlist grow as others add their picks. No more fighting over the music - let everyone have a voice in the party playlist! `,
+    imgSrc: '/static/images/MusicNotes.png',
+    href: 'https://github.com/siwu-945/FunTrip',
+  },
+  {
     title: 'Touch Grass (Hackathon Project)',
     description: `We love bringing people together! Touch Grass is a cross-platform app that leverages AI for social good to help facilitate connections between people we think vibe together. This project has secured 3rd place with $1,500 cash price out of 66 teams with 400+ participants in Philly Codefest `,
     imgSrc: '/static/images/touchGrass.jpg',
     href: 'https://github.com/humboldt123/touch-grass',
+  },
+  {
+    title: 'Stalker Free',
+    description: `Tired of searching if your ex unfollowed you? We don't like stalkers and certainly don't want to become one! Use this handy script so you don't have to be stalking your profiles all day long. This script helped you to track who unfollowed you on Instagram, addressing the lack of an Instagram API for accessing follower lists.`,
+    imgSrc: '/static/images/MagGlass.png',
+    href: 'https://github.com/siwu-945/stalker_free',
   },
   {
     title: 'NoNo Music',
