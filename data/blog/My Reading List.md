@@ -13,9 +13,9 @@ showImage: false
 
 ## Why read?
 
-I can’t even recall the last time I really sat down with a book, made it all the way through, then closed it with a long sigh, thinking, “Finally done.”
+I can’t even recall the last time I really sat down with a book, made it all the way through, then closed it with a long sigh, recollecting the pieces of world I was part of.
 
-Except some fictions I read before going to bed, but they didn't made me think that much.
+Albeit I did finish a few bedtime novels, they offered so little depth that I may as well have been scrolling through Instagram reels or TikTok.
 
 So here's a tracker or a list of things I want to read and is reading, to motivate myself to think more.
 
