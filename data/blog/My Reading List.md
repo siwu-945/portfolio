@@ -13,11 +13,11 @@ showImage: false
 
 ## Why read?
 
-I can’t even recall the last time I really sat down with a book, made it all the way through, then closed it with a long sigh, recollecting the pieces of world I was part of.
+I can’t even recall the last time I really sat down with a book, made it all the way through, then closed it with a long sigh, recollecting the pieces of the world I was part of.
 
-Albeit I did finish a few bedtime novels, they offered so little depth that I may as well have been scrolling through Instagram reels or TikTok.
+Albeit I did finish a few bedtime novels, they offered so little in depth that I may as well have been scrolling through Instagram reels or TikTok.
 
-So here's a tracker or a list of things I want to read and is reading, to motivate myself to think more.
+So here's a tracker or a list of things I want to read and am reading, to motivate myself to think more.
 
 ## 📚 Books
 
@@ -33,6 +33,11 @@ So here's a tracker or a list of things I want to read and is reading, to motiva
 
 1. _Thinking Strategically: The Competitive Edge in Business, Politics, and Everyday Life_ by Avinash K. Dixit , Barry J. Nalebuff
 2. _Atomic Habits_ by James Clear
+3. _The Design of Everyday Things_ by Don Norman (it’s been untouched for a year)
+4. _Game Theory 101: The Complete Textbook by William Spaniel_
+5. ...
+
+I kind of want to get into game theory this year, please email me if you have any book/YouTube/podcast recommendations. Mostly on how to make decisions and interpret strategic interactions among different rationals.
 
 ## 📺 Podcasts
 
