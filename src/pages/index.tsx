@@ -68,7 +68,7 @@ export default function Home({ posts }: { posts: PostFrontMatter[] }) {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {projectsData.slice(0, 5).map((d) => (
               <Card
                 key={d.title}
                 title={d.title}

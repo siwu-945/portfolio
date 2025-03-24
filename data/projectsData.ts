@@ -1,12 +1,18 @@
 const projectsData = [
   {
+    title: 'Safe Glow (2025 PhillyCodefest 3rd Place)',
+    description: `Imagine a map that thinks before you walk! Our mobile app uses ML-powered A* pathfinding to guide you on the safest walking route possible—not just the fastest. Each intersection is weighted by real-time + historical crime data, severity, and recency, ensuring you avoid risky areas. Live alerts dynamically re-route you as new data comes in—because safety isn’t static! `,
+    imgSrc: '/static/images/SafeGlowDemo.png',
+    href: 'https://event.phillycodefest.com/project/detail/106/',
+  },
+  {
     title: 'Non-Stop Karaoke (Developing)',
     description: `Let everyone be the DJ! This web app lets party-goers/friend groups suggest songs in real-time without touching the host's device. Simply join the room, type in your song request, watch the playlist grow as others add their picks. No more fighting over the music - let everyone have a voice in the party playlist! `,
     imgSrc: '/static/images/MusicNotes.png',
     href: 'https://github.com/siwu-945/FunTrip',
   },
   {
-    title: 'Touch Grass (Hackathon Project)',
+    title: 'Touch Grass (2024 PhillyCodefest 3rd Place)',
     description: `We love bringing people together! Touch Grass is a cross-platform app that leverages AI for social good to help facilitate connections between people we think vibe together. This project has secured 3rd place with $1,500 cash price out of 66 teams with 400+ participants in Philly Codefest `,
     imgSrc: '/static/images/touchGrass.jpg',
     href: 'https://github.com/humboldt123/touch-grass',
